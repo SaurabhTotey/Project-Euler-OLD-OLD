@@ -1,5 +1,5 @@
 #include <iostream>
-#include "Problem2/Problem2.h"
+#include "Problem3/Problem3.h"
 
 /**
  * Entry point of the program
@@ -7,7 +7,7 @@
  * @return
  */
 int main() {
-    Problem2 p2 = Problem2();
-    std::cout << p2.sumOfEvenTermsLowerThanLimit() << std::endl;
+    Problem3 p3 = Problem3();
+    std::cout << p3.largestPrimeFactor() << std::endl;
     return 0;
 }
