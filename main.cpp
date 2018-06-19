@@ -1,5 +1,5 @@
 #include <iostream>
-#include "Problem3/Problem3.h"
+#include "Problem4/Problem4.h"
 
 /**
  * Entry point of the program
@@ -7,7 +7,6 @@
  * @return
  */
 int main() {
-    Problem3 p3 = Problem3();
-    std::cout << p3.largestPrimeFactor() << std::endl;
+    std::cout << largestPalindromeFromProductOfThreeDigitNumbers() << std::endl;
     return 0;
 }
