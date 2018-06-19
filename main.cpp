@@ -1,5 +1,5 @@
 #include <iostream>
-#include "Problem1/Problem1.h"
+#include "Problem2/Problem2.h"
 
 /**
  * Entry point of the program
@@ -7,7 +7,7 @@
  * @return
  */
 int main() {
-    Problem1 p1 = Problem1();
-    std::cout << p1.sumOfDivisibleUntilHighestNumber() << std::endl;
+    Problem2 p2 = Problem2();
+    std::cout << p2.sumOfEvenTermsLowerThanLimit() << std::endl;
     return 0;
 }
