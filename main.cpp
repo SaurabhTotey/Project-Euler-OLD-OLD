@@ -1,12 +1,12 @@
 #include <iostream>
-#include "Problem4/Problem4.h"
+#include "Problem5/Problem5.h"
 
 /**
  * Entry point of the program
  * Will constantly be changed to run most recent problem
- * @return
  */
 int main() {
-    std::cout << largestPalindromeFromProductOfThreeDigitNumbers() << std::endl;
+    Problem5 p5 = Problem5();
+    std::cout << p5.smallestEvenlyDivisiblyByAllUntilUpperBound() << std::endl;
     return 0;
 }
