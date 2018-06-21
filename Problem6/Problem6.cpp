@@ -14,10 +14,10 @@ namespace Problem6 {
         int sum = 0;
         for (int i = 1; i < upperSumBound; i++) {
             for (int j = i + 1; j <= upperSumBound; j++) {
-                sum += 2 * i * j;
+                sum += i * j;
             }
         }
-        return sum;
+        return 2 * sum;
     }
 
 }

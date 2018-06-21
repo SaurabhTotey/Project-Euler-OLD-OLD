@@ -9,4 +9,5 @@ add_executable(Project-Euler main.cpp
         Problem3/Problem3.cpp Problem3/Problem3.h
         Problem4/Problem4.cpp Problem4/Problem4.h
         Problem5/Problem5.cpp Problem5/Problem5.h
-        Problem6/Problem6.cpp Problem6/Problem6.h)
+        Problem6/Problem6.cpp Problem6/Problem6.h
+        Problem7/Problem7.cpp Problem7/Problem7.h)
