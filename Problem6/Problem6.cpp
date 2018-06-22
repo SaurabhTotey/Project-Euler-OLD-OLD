@@ -1,8 +1,5 @@
 #include "Problem6.h"
 
-/**
- * My first attempt at using C++ namespaces instead of classes for singletons with basically static fields
- */
 namespace Problem6 {
 
     /**

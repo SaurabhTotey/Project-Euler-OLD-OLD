@@ -6,12 +6,10 @@
 /**
  * Attempt for Problem 2 on Project Euler
  */
-class Problem2 {
-public:
-    //The list of terms in the Fibonacci Sequence
-    std::vector<int> fibTerms = {1, 2};
+namespace Problem2 {
+
     //The maximum number that will be allowed for the stored fibonacci sequence
-    int maxLimit = 4000000;
+    const int maxLimit = 4000000;
 
     /**
      * Adds a number to the fibTerms
